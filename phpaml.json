@@ -1,0 +1,28 @@
+{
+    "name": "phpaml-retest-view",
+    "version": "1.0.0",
+    "description": "Fresh PHPAML View production test.",
+    "application": {
+        "type": "view",
+        "views": "src/views",
+        "debug": false
+    },
+    "runtime": {
+        "directory": "runtime",
+        "framework": "0.3.0-beta.5"
+    },
+    "requirements": {
+        "php": "^8.2"
+    },
+    "modules": {
+        "view": {
+            "package": "phpaml/view",
+            "constraint": "^0.1.0-beta.6",
+            "mode": "frontend"
+        },
+        "engine": {
+            "package": "phpaml/engine",
+            "mode": "client"
+        }
+    }
+}

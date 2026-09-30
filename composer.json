@@ -1,0 +1,21 @@
+{
+    "name": "mr-c0de/phpaml-retest-view",
+    "description": "Fresh PHPAML View production deployment test.",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "phpaml/engine": "^0.1@beta",
+        "phpaml/view": "^0.1.0-beta.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPAML\\": "runtime/framework/",
+            "App\\Views\\": "src/views/"
+        }
+    },
+    "config": {
+        "vendor-dir": "runtime",
+        "sort-packages": true
+    }
+}
